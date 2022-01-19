@@ -339,15 +339,15 @@ html {
 }
 
 .section-contacts-icon-gps {
-  background-image: url('/img/gps.png');
+  background-image: url('../img/gps.png');
 }
 
 .section-contacts-icon-phone {
-  background-image: url('/img/phone.png');
+  background-image: url('../img/phone.png');
 }
 
 .section-contacts-icon-mail {
-  background-image: url('/img/mail.png');
+  background-image: url('../img/mail.png');
   background-size: auto 19px;
 }
 
@@ -369,6 +369,41 @@ html {
   color: #787878; 
 }
 
+.form-title{
+  text-align: center;
+}
+
+.form-descrtiption{
+  font-style: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #787878;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+
+.input,
+.btn-submit{
+  flex: 0 0 calc(25% - 15px);
+  height: 60px;
+  border-radius: 30px;
+}
+
+.input{
+  padding: 0 30px;
+  border: 1px solid #dadada;
+  border-radius: 30px;
+}
+
+.input::placeholder{
+  color: #8b8b8b;
+}
+
+/* начало нижнего меню */
 .footer {
   height: 125px;
 }
